@@ -1,5 +1,5 @@
 {
-  "name": "docus-starter",
+  "name": "evergreen",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,7 +20,6 @@
     "nuxt": "^3.7.4"
   },
   "dependencies": {
-    "@nuxt/content": "^2.10.0",
     "slugify": "^1.6.6"
   }
 }
