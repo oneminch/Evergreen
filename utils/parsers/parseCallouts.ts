@@ -6,7 +6,7 @@ function calloutSyntaxReplacer(
 ) {
   const quoteContent = p3.replaceAll(/(^|\n)>\s/g, "$1");
 
-  return `${p1}\n::app-blockquote\n${quoteContent}\n::`;
+  return `${p1}\n::app-callout\n${quoteContent}\n::`;
 }
 
 const CALLOUT_REGEX = /(^|\n)>{1}\s(?:\[!(\w+)\])\n((>{1}\s.*(\n|$))*)/gi;
