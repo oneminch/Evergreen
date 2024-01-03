@@ -19,5 +19,10 @@ export default defineAppConfig({
     footer: {
       credits: false
     }
+  },
+  prose: {
+    headings: {
+      icon: "heroicons:hashtag-20-solid"
+    }
   }
 });

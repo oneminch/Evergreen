@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
+  extends: ["@nuxt-themes/docus"],
   components: [{ path: "~/components", pathPrefix: false }],
   content: {
-    documentDriven: true,
     sources: {
       github: {
         prefix: "/remote",
@@ -32,7 +32,6 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  extends: "@nuxt-themes/docus",
   modules: ["@nuxtjs/tailwindcss"],
   tailwindcss: {
     viewer: false
