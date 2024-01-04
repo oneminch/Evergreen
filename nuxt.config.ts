@@ -32,8 +32,13 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxt/content", "@nuxtjs/tailwindcss"],
   tailwindcss: {
+    config: {
+      darkMode: "class",
+      mode: "jit"
+    },
+    cssPath: "~/assets/css/main.css",
     viewer: false
   }
 });
