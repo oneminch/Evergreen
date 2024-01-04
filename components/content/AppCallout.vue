@@ -1,18 +1,7 @@
-<script setup>
-  // const content = "";
-</script>
-
 <template>
-  <blockquote class="bg-green-200">
+  <blockquote
+    class="border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-lg py-4 px-6"
+  >
     <slot />
   </blockquote>
 </template>
-
-<style scoped>
-  blockquote {
-    border: 1px solid #495057;
-    border-radius: 0.5rem;
-    background-color: #343a40;
-    padding: 1rem 1.5rem;
-  }
-</style>
