@@ -13,6 +13,7 @@ export default defineAppConfig({
     },
     header: {
       logo: true,
+      title: "Dawit's Second Brain 🧠",
       exclude: ["remote"],
       fluid: false
     },
