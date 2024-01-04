@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html.light .shiki,
-html.dark .shiki,
-html.light .shiki span,
-html.dark .shiki span {
-  color: var(--shiki-dark) !important;
-  background-color: var(--shiki-dark-bg) !important;
-} */
+h1 u,
+h2 u,
+h3 u,
+h4 u,
+h5 u,
+h6 u {
+  @apply px-5 !important;
+}
