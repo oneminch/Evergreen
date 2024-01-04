@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^2.10.0",
+    "@nuxtjs/color-mode": "^3.3.2",
     "slugify": "^1.6.6"
   }
 }
